@@ -43,7 +43,7 @@ class test():
 for ii in range(10000):
     a=test(ip,port,ii)
     for i in range(num):
-        t1=Thread(target=a.Port_connect,args=())  #target=后面的函数不要瞎几把乱加括号，影响并发
+        t1=Thread(target=a.Port_connect,args=())  
         t1.start()
     # time.sleep(5)
     # t1.join()
