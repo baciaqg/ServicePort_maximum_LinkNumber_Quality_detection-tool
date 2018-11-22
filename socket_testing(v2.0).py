@@ -5,7 +5,7 @@ from threading import *
 ip=str(input('输入测试服务的IP地址或域名:'))
 port=int(input('输入该服务使用的业务端口号:'))
 num=int(input('输入每次测试发起TCP连接数：'))
-# ip='8.8.8.8'
+# ip='8.8.8.8'/www.baidu.com
 # port=53
 # num=50
 
